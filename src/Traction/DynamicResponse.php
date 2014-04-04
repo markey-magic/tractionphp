@@ -20,6 +20,11 @@ class DynamicResponse extends Response
         $this->data = json_decode($response->getContent());
     }
 
+	public function getData()
+    {
+        return $this->data;
+    }
+	
     /**
      * {@inheritdoc}
      */
