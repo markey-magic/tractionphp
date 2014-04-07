@@ -1,7 +1,7 @@
 {
-    "name": "noetix/traction-php",
+    "name": "markey-magic/tractionphp",
     "description": "Traction API Library",
-    "homepage": "https://github.com/noetix/traction-php",
+    "homepage": "https://github.com/markey-magic/traction-php",
     "type": "library",
     "license": "MIT",
     "authors": [
