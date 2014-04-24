@@ -35,6 +35,11 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
         $USERID,
         $PASSWORD,
         $ENDPOINTID,
+        $FILEPROFILEID,
+        $SOURCETYPE,
+        $FILETRANSFERID,
+        $SOURCEID,
+        $ZIP,
         $ENCODE,
         $TEST,
         $CUSTOMATTRIBUTES = array();
@@ -88,7 +93,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
     {
         $this->ENDPOINTID = (int) $value;
     }
-
+    
     /**
      * Get endpoint ID
      * 
@@ -158,5 +163,101 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
     public function getCustomAttributes()
     {
         return $this->CUSTOMATTRIBUTES;
+    }
+    
+    /**
+     * Set fileprofile ID
+     *
+     * @param string $value
+     */
+    public function setFileProfileId($value)
+    {
+    	$this->FILEPROFILEID = $value;
+    }
+    
+    /**
+     * Get fileprofile ID
+     *
+     * @param string $value
+     */
+    public function getFileProfileId()
+    {
+    	return $this->FILEPROFILEID;
+    }
+    
+    /**
+     * Set sourcetype
+     *
+     * @param string $value
+     */
+    public function setSourceType($value)
+    {
+    	$this->SOURCETYPE = $value;
+    }
+    
+    /**
+     * Get sourcetype
+     *
+     * @param string $value
+     */
+    public function getSourceType($value)
+    {
+    	return $this->SOURCETYPE;
+    }
+    
+    /**
+     * Set filetransferid
+     *
+     * @param string $value
+     */
+    public function setFileTransferId($value)
+    {
+    	$this->FILETRANSFERID = $value;
+    }
+    
+    /**
+     * Get filetransferid
+     *
+     * @param string $value
+     */
+    public function getFileTransferId()
+    {
+    	return $this->FILETRANSFERID;
+    }
+    
+    /**
+     * Set zip
+     *
+     * @param string $value
+     */
+    public function setZip($value)
+    {
+    	$this->ZIP = $value;
+    }
+    
+    /**
+     * Get zip
+     */
+    public function getZip()
+    {
+    	return $this->ZIP;
+    }
+    
+    /**
+     * Set sourceid
+     *
+     * @param string $value
+     */
+    public function setSourceId($value)
+    {
+    	$this->SOURCEID = $value;
+    }
+    
+    /**
+     * Get source id
+     */
+    public function getSourceId()
+    {
+    	return $this->SOURCEID;
     }
 }

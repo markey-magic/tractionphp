@@ -61,6 +61,11 @@ class Handler
                 'user_id',
                 'password',
                 'endpoint_id',
+            	'fileprofileid',
+            	'sourcetype',
+            	'filetransferid',
+            	'zip',
+            	'sourceid',
                 'test'
             ))
             ->setAllowedTypes(array(
@@ -68,6 +73,11 @@ class Handler
                 'user_id'     => 'string',
                 'password'    => 'string',
                 'endpoint_id' => 'numeric',
+            	'fileprofileid' => 'numeric',
+            	'sourcetype'    => 'string',
+            	'filetransferid' => 'numeric',
+            	'zip' => 'bool',
+            	'sourceid' => 'numeric',            		
                 'test'        => 'bool'
             ));
     }
@@ -93,10 +103,11 @@ class Handler
     public function submit(RequestableInterface $request)
     {
         $this->applyDefaultOptions($request);
-
+        
         $url = $this->options['host'] . $request->getPath();
+        
         $data = Packer::pack($request);
-
+        
         return new Response($this->browser->submit($url, $data));
     }
 
@@ -118,7 +129,26 @@ class Handler
         // set custom endpoint id
         if (isset($this->options['endpoint_id']))
             $request->setEndpointId($this->options['endpoint_id']);
+        
+        // set fileprofileid
+        if (isset($this->options['fileprofileid']))
+        	$request->setFileProfileId($this->options['fileprofileid']);
 
+        // set sourcetype
+        if (isset($this->options['sourcetype']))
+        	$request->setSourceType($this->options['sourcetype']);
+        
+        // set filetransferid
+        if (isset($this->options['filetransferid']))
+        	$request->setFileTransferId($this->options['filetransferid']);
+        // set zip
+        if (isset($this->options['zip']))
+        	$request->setZip($this->options['zip']);
+        
+        // set source id
+        if (isset($this->options['sourceid']))
+        	$request->setSourceId($this->options['sourceid']);
+        
         // set custom test
         if (isset($this->options['test']))
             $request->setTest($this->options['test']);
