@@ -37,7 +37,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Set gateway ID
-     * 
+     *
      * @param integer $value
      */
     public function setGatewayId($value)
@@ -47,7 +47,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Get gateway ID
-     * 
+     *
      * @return integer
      */
     public function getGatewayId()
@@ -57,7 +57,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Set action
-     * 
+     *
      * @param string $value
      */
     public function setAction($value)
@@ -67,7 +67,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Get action
-     * 
+     *
      * @return string
      */
     public function getAction()
@@ -77,7 +77,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Set mobile
-     * 
+     *
      * @param string $value
      */
     public function setMobile($value)
@@ -87,7 +87,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Get mobile
-     * 
+     *
      * @return string
      */
     public function getMobile()
@@ -97,7 +97,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Set message
-     * 
+     *
      * @param string $value
      */
     public function setMessage($value)
@@ -107,7 +107,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Get message
-     * 
+     *
      * @return string
      */
     public function getMessage()
@@ -117,7 +117,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Set batch size
-     * 
+     *
      * @param integer $value
      */
     public function setBatchSize($value)
@@ -127,7 +127,7 @@ class SmsGateway extends BaseAbstract
 
     /**
      * Get batch size
-     * 
+     *
      * @return integer
      */
     public function getBatchSize()

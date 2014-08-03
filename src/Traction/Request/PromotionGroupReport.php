@@ -12,8 +12,7 @@ class PromotionGroupReport extends BaseAbstract
     /**
      * Field definition
      */
-    public
-        $GROUPID;
+    public $GROUPID;
 
     /**
      * {@inheritdoc}
@@ -25,7 +24,7 @@ class PromotionGroupReport extends BaseAbstract
 
     /**
      * Set group ID
-     * 
+     *
      * @param integer $value
      */
     public function setGroupId($value)
@@ -35,7 +34,7 @@ class PromotionGroupReport extends BaseAbstract
 
     /**
      * Get group ID
-     * 
+     *
      * @return integer
      */
     public function getGroupId()

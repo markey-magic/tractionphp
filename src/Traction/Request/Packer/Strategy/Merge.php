@@ -24,8 +24,7 @@ class Merge implements StrategyInterface
      */
     public static function pack(&$data, $field, $contents)
     {
-        foreach ($contents AS $key => $value)
-        {
+        foreach ($contents as $key => $value) {
             $data[$key] = $value;
         }
     }

@@ -14,7 +14,7 @@ class NumericalTest extends \PHPUnit_Framework_TestCase
     public function testPack()
     {
         $data = array();
-        
+
         Numerical::pack($data, 'FRUIT', array('orange', 'banana', 'apple'));
 
         $this->assertArrayHasKey('FRUIT1', $data);
@@ -25,7 +25,7 @@ class NumericalTest extends \PHPUnit_Framework_TestCase
 
         $this->assertArrayHasKey('FRUIT3', $data);
         $this->assertTrue($data['FRUIT3'] === 'apple');
-        
+
         $this->assertCount(3, $data);
     }
 }

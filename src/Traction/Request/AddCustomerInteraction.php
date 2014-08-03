@@ -40,7 +40,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Set match key
-     * 
+     *
      * @param string $value
      */
     public function setMatchKey($value)
@@ -50,7 +50,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Get match key
-     * 
+     *
      * @return string
      */
     public function getMatchKey()
@@ -60,7 +60,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Add a match value
-     * 
+     *
      * @param string $value
      */
     public function addMatchValue($value)
@@ -70,7 +70,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Get match value
-     * 
+     *
      * @return string
      */
     public function getMatchValues()
@@ -80,7 +80,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Add a customer
-     * 
+     *
      * @param Customer $value
      */
     public function addCustomer(Customer $value = null)
@@ -90,7 +90,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Get customer
-     * 
+     *
      * @return Customer
      */
     public function getCustomers()
@@ -100,7 +100,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Add an interaction
-     * 
+     *
      * @param string $value
      */
     public function addInteraction($value)
@@ -110,7 +110,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Get interactions
-     * 
+     *
      * @return string
      */
     public function getInteractions()
@@ -120,7 +120,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Set interaction date
-     * 
+     *
      * @param string $value
      */
     public function setInteractionDate($value)
@@ -130,7 +130,7 @@ class AddCustomerInteraction extends BaseAbstract
 
     /**
      * Get interaction date
-     * 
+     *
      * @return string
      */
     public function getInteractionDate()

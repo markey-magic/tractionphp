@@ -38,7 +38,7 @@ class AddCustomer extends BaseAbstract
 
     /**
      * Set match key
-     * 
+     *
      * @param string $value
      */
     public function setMatchKey($value)
@@ -48,7 +48,7 @@ class AddCustomer extends BaseAbstract
 
     /**
      * Get match key
-     * 
+     *
      * @return string
      */
     public function getMatchKey()
@@ -58,7 +58,7 @@ class AddCustomer extends BaseAbstract
 
     /**
      * Set match value
-     * 
+     *
      * @param string $value
      */
     public function setMatchValue($value)
@@ -68,7 +68,7 @@ class AddCustomer extends BaseAbstract
 
     /**
      * Get match value
-     * 
+     *
      * @return string
      */
     public function getMatchValue()
@@ -78,7 +78,7 @@ class AddCustomer extends BaseAbstract
 
     /**
      * Set customer
-     * 
+     *
      * @param Customer $value
      */
     public function setCustomer(Customer $value = null)
@@ -88,7 +88,7 @@ class AddCustomer extends BaseAbstract
 
     /**
      * Get customer
-     * 
+     *
      * @return Customer
      */
     public function getCustomer()

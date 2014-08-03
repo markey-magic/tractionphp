@@ -45,7 +45,7 @@ class Customer implements PackableInterface
 
     /**
      * Set first name
-     * 
+     *
      * @param string $value
      */
     public function setFirstName($value = null)
@@ -55,7 +55,7 @@ class Customer implements PackableInterface
 
     /**
      * Get first name
-     * 
+     *
      * @return string
      */
     public function getFirstName()
@@ -65,7 +65,7 @@ class Customer implements PackableInterface
 
     /**
      * Set last name
-     * 
+     *
      * @param string $value
      */
     public function setLastName($value = null)
@@ -75,7 +75,7 @@ class Customer implements PackableInterface
 
     /**
      * Get last name
-     * 
+     *
      * @return string
      */
     public function getLastName()
@@ -85,7 +85,7 @@ class Customer implements PackableInterface
 
     /**
      * Set email address
-     * 
+     *
      * @param string $value
      */
     public function setEmail($value = null)
@@ -95,7 +95,7 @@ class Customer implements PackableInterface
 
     /**
      * Get email address
-     * 
+     *
      * @return string
      */
     public function getEmail()
@@ -105,7 +105,7 @@ class Customer implements PackableInterface
 
     /**
      * Set mobile number
-     * 
+     *
      * @param string $value
      */
     public function setMobile($value = null)
@@ -115,7 +115,7 @@ class Customer implements PackableInterface
 
     /**
      * Get mobile number
-     * 
+     *
      * @return string
      */
     public function getMobile()
@@ -125,7 +125,7 @@ class Customer implements PackableInterface
 
     /**
      * Set title (MR, MRS, etc)
-     * 
+     *
      * @param string $value
      */
     public function setTitle($value = null)
@@ -135,7 +135,7 @@ class Customer implements PackableInterface
 
     /**
      * Get title
-     * 
+     *
      * @return string
      */
     public function getTitle()
@@ -145,7 +145,7 @@ class Customer implements PackableInterface
 
     /**
      * Set email opt
-     * 
+     *
      * @param string $value
      */
     public function setEmailOpt($value = null)
@@ -155,7 +155,7 @@ class Customer implements PackableInterface
 
     /**
      * Get email opt
-     * 
+     *
      * @return string
      */
     public function getEmailOpt()
@@ -165,7 +165,7 @@ class Customer implements PackableInterface
 
     /**
      * Set sms opt
-     * 
+     *
      * @param string $value
      */
     public function setSmsOpt($value = null)
@@ -175,7 +175,7 @@ class Customer implements PackableInterface
 
     /**
      * Get sms opt
-     * 
+     *
      * @return string
      */
     public function getSmsOpt()
@@ -185,7 +185,7 @@ class Customer implements PackableInterface
 
     /**
      * Set external user id
-     * 
+     *
      * @param string $value
      */
     public function setExtUserId($value = null)
@@ -195,7 +195,7 @@ class Customer implements PackableInterface
 
     /**
      * Get external user id
-     * 
+     *
      * @return string
      */
     public function getExtUserId()
@@ -205,7 +205,7 @@ class Customer implements PackableInterface
 
     /**
      * Set active
-     * 
+     *
      * @param string $value
      */
     public function setActive($value = null)
@@ -215,7 +215,7 @@ class Customer implements PackableInterface
 
     /**
      * Get active
-     * 
+     *
      * @return string
      */
     public function getActive()
@@ -225,7 +225,7 @@ class Customer implements PackableInterface
 
     /**
      * Set password
-     * 
+     *
      * @param string $value
      */
     public function setPassword($value = null)
@@ -235,7 +235,7 @@ class Customer implements PackableInterface
 
     /**
      * Get password
-     * 
+     *
      * @return string
      */
     public function getPassword()
@@ -245,7 +245,7 @@ class Customer implements PackableInterface
 
     /**
      * Add a custom attribute
-     * 
+     *
      * @param integer $key   ID of custom attribute in Traction
      * @param mixed   $value
      */
@@ -256,7 +256,7 @@ class Customer implements PackableInterface
 
     /**
      * Get custom attributes
-     * 
+     *
      * @return array
      */
     public function getCustomAttributes()

@@ -57,10 +57,10 @@ class Competition extends DynamicBaseAbstract
     /**
      * Add a custom attribute
      *
-     * @param string $key ID of custom attribute in Traction
-     * @param mixed $value
+     * @param string $key   ID of custom attribute in Traction
+     * @param mixed  $value
      */
-    public function addAttribute($key, $value = NULL)
+    public function addAttribute($key, $value = null)
     {
         $this->CUSTOMER[$key] = $value;
     }

@@ -15,7 +15,7 @@ class MergeTest extends \PHPUnit_Framework_TestCase
     {
         $data = array();
         $contents = array('LIKE' => 'orange', 'LOVE' => 'apple', 'HATE' => 'banana');
-        
+
         Merge::pack($data, 'FRUIT', $contents);
 
         $this->assertArrayHasKey('LIKE', $data);

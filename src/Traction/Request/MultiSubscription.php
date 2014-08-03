@@ -38,7 +38,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Add a subscription
-     * 
+     *
      * @param string $value
      */
     public function addSubscription($value)
@@ -48,7 +48,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Get subscriptionids
-     * 
+     *
      * @return array
      */
     public function getSubscriptions()
@@ -58,7 +58,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Set send reply sms
-     * 
+     *
      * @param string $value
      */
     public function setSendReplySms($value = null)
@@ -68,7 +68,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Get send reply sms
-     * 
+     *
      * @return string
      */
     public function getSendReplySms()
@@ -78,7 +78,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Set match key
-     * 
+     *
      * @param string $value
      */
     public function setMatchKey($value)
@@ -88,7 +88,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Get match key
-     * 
+     *
      * @return string
      */
     public function getMatchKey()
@@ -98,7 +98,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Set match value
-     * 
+     *
      * @param string $value
      */
     public function setMatchValue($value)
@@ -108,7 +108,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Get match value
-     * 
+     *
      * @return string
      */
     public function getMatchValue()
@@ -118,7 +118,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Set customer
-     * 
+     *
      * @param Customer $value
      */
     public function setCustomer(Customer $value = null)
@@ -128,7 +128,7 @@ class MultiSubscription extends BaseAbstract
 
     /**
      * Get customer
-     * 
+     *
      * @return Customer
      */
     public function getCustomer()

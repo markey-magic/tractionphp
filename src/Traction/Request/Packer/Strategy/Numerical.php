@@ -24,10 +24,9 @@ class Numerical implements StrategyInterface
     {
         $count = 0;
 
-        foreach ($contents AS $key => $value)
-        {
+        foreach ($contents as $key => $value) {
             $count++;
-            
+
             $data[$field . $count] = $value;
         }
     }

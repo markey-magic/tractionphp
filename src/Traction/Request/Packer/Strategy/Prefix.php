@@ -24,8 +24,7 @@ class Prefix implements StrategyInterface
      */
     public static function pack(&$data, $prefix, $contents)
     {
-        foreach ($contents AS $key => $value)
-        {
+        foreach ($contents as $key => $value) {
             $data[$prefix . '.' . $key] = $value;
         }
     }

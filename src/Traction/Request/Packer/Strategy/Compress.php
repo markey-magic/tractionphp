@@ -24,8 +24,7 @@ class Compress implements StrategyInterface
     {
         $segments = array();
 
-        foreach ($contents AS $key => $value)
-        {
+        foreach ($contents as $key => $value) {
             $segments[] = sprintf('%s|%s', $key, $value);
         }
 

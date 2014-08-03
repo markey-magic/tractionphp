@@ -39,7 +39,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Set match key
-     * 
+     *
      * @param string $value
      */
     public function setMatchKey($value)
@@ -49,7 +49,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Get match key
-     * 
+     *
      * @return string
      */
     public function getMatchKey()
@@ -59,7 +59,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Set match value
-     * 
+     *
      * @param string $value
      */
     public function setMatchValue($value)
@@ -69,7 +69,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Get match value
-     * 
+     *
      * @return string
      */
     public function getMatchValue()
@@ -79,7 +79,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Set access password
-     * 
+     *
      * @param string $value
      */
     public function setAccessPassword($value = null)
@@ -89,7 +89,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Get access password
-     * 
+     *
      * @return string
      */
     public function getAccessPassword()
@@ -99,7 +99,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Set require password
-     * 
+     *
      * @param bool $value
      */
     public function setRequirePassword($value = null)
@@ -109,7 +109,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Get require password
-     * 
+     *
      * @return bool
      */
     public function getRequirePassword()
@@ -119,7 +119,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Set if invisible
-     * 
+     *
      * @param bool $value
      */
     public function setIsInvisible($value = null)
@@ -129,7 +129,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Get if invisible
-     * 
+     *
      * @return bool
      */
     public function getIsInvisible()
@@ -139,7 +139,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Add an attribute
-     * 
+     *
      * @param string $value
      */
     public function addAttribute($value)
@@ -149,7 +149,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Get attributes
-     * 
+     *
      * @return array
      */
     public function getAttributes()
@@ -159,7 +159,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Set subscriptions
-     * 
+     *
      * @param string $value
      */
     public function setSubscriptions($value = null)
@@ -169,7 +169,7 @@ class CustomerLogin extends BaseAbstract
 
     /**
      * Get subscriptions
-     * 
+     *
      * @return string
      */
     public function getSubscriptions()
