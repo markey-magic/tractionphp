@@ -40,7 +40,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Set broadcast ID
-     * 
+     *
      * @param integer $value
      */
     public function setBroadcastId($value)
@@ -50,7 +50,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Get broadcast ID
-     * 
+     *
      * @return integer
      */
     public function getBroadcastId()
@@ -60,7 +60,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Set promotion ID
-     * 
+     *
      * @param integer $value
      */
     public function setPromotionId($value)
@@ -70,7 +70,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Get promotion ID
-     * 
+     *
      * @return integer
      */
     public function getPromotionId()
@@ -80,7 +80,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Set type
-     * 
+     *
      * @param string $value
      */
     public function setType($value = null)
@@ -90,7 +90,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Get type
-     * 
+     *
      * @return string
      */
     public function getType()
@@ -100,7 +100,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Set sender
-     * 
+     *
      * @param Customer $value
      */
     public function setSender(Customer $value = null)
@@ -110,7 +110,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Get sender
-     * 
+     *
      * @return Customer
      */
     public function getSender()
@@ -120,7 +120,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Add a recipient
-     * 
+     *
      * @param Customer $value
      */
     public function addRecipient(Customer $value = null)
@@ -130,7 +130,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Get recipient
-     * 
+     *
      * @return Customer
      */
     public function getRecipients()
@@ -140,7 +140,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Set entry code
-     * 
+     *
      * @param string $value
      */
     public function setEntryCode($value = null)
@@ -150,7 +150,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Get entry code
-     * 
+     *
      * @return string
      */
     public function getEntryCode()
@@ -160,7 +160,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Set check opt in
-     * 
+     *
      * @param string $value
      */
     public function setCheckOptIn($value = null)
@@ -170,7 +170,7 @@ class SendToFriend extends BaseAbstract
 
     /**
      * Get check opt in
-     * 
+     *
      * @return string
      */
     public function getCheckOptIn()

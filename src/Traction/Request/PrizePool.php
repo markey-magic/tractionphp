@@ -39,7 +39,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Set promotion ID
-     * 
+     *
      * @param integer $value
      */
     public function setPromotionId($value)
@@ -49,7 +49,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Get promotion ID
-     * 
+     *
      * @return integer
      */
     public function getPromotionId()
@@ -59,7 +59,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Set match key
-     * 
+     *
      * @param string $value
      */
     public function setMatchKey($value)
@@ -69,7 +69,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Get match key
-     * 
+     *
      * @return string
      */
     public function getMatchKey()
@@ -79,7 +79,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Set match value
-     * 
+     *
      * @param string $value
      */
     public function setMatchValue($value)
@@ -89,7 +89,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Get match value
-     * 
+     *
      * @return string
      */
     public function getMatchValue()
@@ -99,7 +99,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Set customer
-     * 
+     *
      * @param Customer $value
      */
     public function setCustomer(Customer $value = null)
@@ -109,7 +109,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Get customer
-     * 
+     *
      * @return Customer
      */
     public function getCustomer()
@@ -119,7 +119,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Set entry code
-     * 
+     *
      * @param string $value
      */
     public function setEntryCode($value = null)
@@ -129,7 +129,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Get entry code
-     * 
+     *
      * @return string
      */
     public function getEntryCode()
@@ -139,7 +139,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Add snippet
-     * 
+     *
      * @param string $value
      */
     public function addSnippet($value)
@@ -149,7 +149,7 @@ class PrizePool extends BaseAbstract
 
     /**
      * Get snippets
-     * 
+     *
      * @return array
      */
     public function getSnippets()

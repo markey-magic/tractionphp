@@ -2,8 +2,6 @@
 
 namespace Traction\Request;
 
-use Traction\Request\PackableInterface;
-use Traction\Request\RequestableInterface;
 use Traction\Request\Packer\Packer;
 
 /**
@@ -21,7 +19,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
         MATCHKEY_MOBILE   = 'M',
         MATCHKEY_EXTERNAL = 'X',
         MATCHKEY_CUSTOMER = 'C';
-        
+
     /**
      * Packer configuration
      */
@@ -46,7 +44,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Set user ID
-     * 
+     *
      * @param string $value
      */
     public function setUserId($value)
@@ -56,7 +54,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Get user ID
-     * 
+     *
      * @return string
      */
     public function getUserId()
@@ -66,7 +64,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Set password
-     * 
+     *
      * @param string $value
      */
     public function setPassword($value)
@@ -76,7 +74,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Get password
-     * 
+     *
      * @return string
      */
     public function getPassword()
@@ -86,17 +84,17 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Set endpoint ID
-     * 
+     *
      * @param string $value
      */
     public function setEndpointId($value)
     {
         $this->ENDPOINTID = (int) $value;
     }
-    
+
     /**
      * Get endpoint ID
-     * 
+     *
      * @return string
      */
     public function getEndpointId()
@@ -106,7 +104,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Set encode
-     * 
+     *
      * @param string $value
      */
     public function setEncode($value = null)
@@ -116,7 +114,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Get encode
-     * 
+     *
      * @return string
      */
     public function getEncode()
@@ -126,7 +124,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Set test
-     * 
+     *
      * @param string $value
      */
     public function setTest($value = null)
@@ -136,7 +134,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Get test
-     * 
+     *
      * @return string
      */
     public function getTest()
@@ -146,7 +144,7 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Add a custom attribute
-     * 
+     *
      * @param integer $key   ID of custom attribute in Traction
      * @param mixed   $value
      */
@@ -157,14 +155,14 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
 
     /**
      * Get custom attributes
-     * 
+     *
      * @return array
      */
     public function getCustomAttributes()
     {
         return $this->CUSTOMATTRIBUTES;
     }
-    
+
     /**
      * Set fileprofile ID
      *
@@ -172,9 +170,9 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
      */
     public function setFileProfileId($value)
     {
-    	$this->FILEPROFILEID = $value;
+        $this->FILEPROFILEID = $value;
     }
-    
+
     /**
      * Get fileprofile ID
      *
@@ -182,9 +180,9 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
      */
     public function getFileProfileId()
     {
-    	return $this->FILEPROFILEID;
+        return $this->FILEPROFILEID;
     }
-    
+
     /**
      * Set sourcetype
      *
@@ -192,9 +190,9 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
      */
     public function setSourceType($value)
     {
-    	$this->SOURCETYPE = $value;
+        $this->SOURCETYPE = $value;
     }
-    
+
     /**
      * Get sourcetype
      *
@@ -202,9 +200,9 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
      */
     public function getSourceType($value)
     {
-    	return $this->SOURCETYPE;
+        return $this->SOURCETYPE;
     }
-    
+
     /**
      * Set filetransferid
      *
@@ -212,9 +210,9 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
      */
     public function setFileTransferId($value)
     {
-    	$this->FILETRANSFERID = $value;
+        $this->FILETRANSFERID = $value;
     }
-    
+
     /**
      * Get filetransferid
      *
@@ -222,9 +220,9 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
      */
     public function getFileTransferId()
     {
-    	return $this->FILETRANSFERID;
+        return $this->FILETRANSFERID;
     }
-    
+
     /**
      * Set zip
      *
@@ -232,17 +230,17 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
      */
     public function setZip($value)
     {
-    	$this->ZIP = $value;
+        $this->ZIP = $value;
     }
-    
+
     /**
      * Get zip
      */
     public function getZip()
     {
-    	return $this->ZIP;
+        return $this->ZIP;
     }
-    
+
     /**
      * Set sourceid
      *
@@ -250,14 +248,14 @@ abstract class BaseAbstract implements PackableInterface, RequestableInterface
      */
     public function setSourceId($value)
     {
-    	$this->SOURCEID = $value;
+        $this->SOURCEID = $value;
     }
-    
+
     /**
      * Get source id
      */
     public function getSourceId()
     {
-    	return $this->SOURCEID;
+        return $this->SOURCEID;
     }
 }

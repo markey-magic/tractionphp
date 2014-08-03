@@ -11,8 +11,8 @@ interface StrategyInterface
 {
     /**
      * Amalgamate raw data into an expected array.
-     * 
-     * @param array  $data     
+     *
+     * @param array  $data
      * @param string $field    Name of the field we're packing
      * @param mixed  $contents Our data to pack into our $data array
      */

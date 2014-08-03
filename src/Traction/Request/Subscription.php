@@ -2,7 +2,6 @@
 
 namespace Traction\Request;
 
-use Traction\Request\Packer\Packer;
 use Traction\Request\Type\Customer;
 
 /**
@@ -40,7 +39,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Set subscription id
-     * 
+     *
      * @param integer $value
      */
     public function setSubscriptionId($value)
@@ -50,7 +49,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Get subscription id
-     * 
+     *
      * @return integer
      */
     public function getSubscriptionId()
@@ -60,7 +59,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Set sub or unsub
-     * 
+     *
      * @param string $value
      */
     public function setSubOrUnsub($value = null)
@@ -70,7 +69,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Get sub or unsub
-     * 
+     *
      * @return string
      */
     public function getSubOrUnsub()
@@ -80,7 +79,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Set send reply sms
-     * 
+     *
      * @param string $value
      */
     public function setSendReplySms($value = null)
@@ -90,7 +89,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Get send reply sms
-     * 
+     *
      * @return string
      */
     public function getSendReplySms()
@@ -100,7 +99,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Set match key
-     * 
+     *
      * @param string $value
      */
     public function setMatchKey($value)
@@ -110,7 +109,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Get match key
-     * 
+     *
      * @return string
      */
     public function getMatchKey()
@@ -120,7 +119,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Set match value
-     * 
+     *
      * @param string $value
      */
     public function setMatchValue($value)
@@ -130,7 +129,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Get match value
-     * 
+     *
      * @return string
      */
     public function getMatchValue()
@@ -140,7 +139,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Set customer
-     * 
+     *
      * @param Customer $value
      */
     public function setCustomer(Customer $value = null)
@@ -150,7 +149,7 @@ class Subscription extends BaseAbstract
 
     /**
      * Get customer
-     * 
+     *
      * @return Customer
      */
     public function getCustomer()

@@ -15,7 +15,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     {
         $data = array();
         $contents = array('LIKE' => 'orange', 'LOVE' => 'apple', 'HATE' => 'banana');
-        
+
         Compress::pack($data, 'FRUIT', $contents);
 
         $this->assertArrayHasKey('FRUIT', $data);

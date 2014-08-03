@@ -2,9 +2,6 @@
 
 namespace Traction\Request\Packer;
 
-use Traction\Request\PackableInterface;
-use Traction\Request\Packer\Strategy\Compress;
-
 /**
  * Request packer.
  *

@@ -26,17 +26,16 @@ class Packer
 
     /**
      * Convert packable object to an array.
-     * 
+     *
      * @param  PackableInterface $object
      * @return array
      */
-    static public function pack(PackableInterface $object)
+    public static function pack(PackableInterface $object)
     {
         $reflect = new \ReflectionClass(get_class($object));
         $data = array();
 
-        foreach ($object AS $key => $value)
-        {
+        foreach ($object as $key => $value) {
             // we don't want to send null variables
             if ($value === null)
                 continue;
@@ -54,8 +53,7 @@ class Packer
         }
 
         // default actions
-        foreach ($data AS $key => $value)
-        {
+        foreach ($data as $key => $value) {
             // make sure all objects have been packed
             if ($value instanceof PackableInterface)
                 $value = self::pack($value);

@@ -14,7 +14,7 @@ class SingleTest extends \PHPUnit_Framework_TestCase
     public function testPack()
     {
         $data = array();
-        
+
         Single::pack($data, 'FRUIT', 'orange');
 
         $this->assertArrayHasKey('FRUIT', $data);

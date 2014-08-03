@@ -2,10 +2,6 @@
 
 namespace Traction\Request;
 
-use Traction\Request\PackableInterface;
-use Traction\Request\RequestableInterface;
-use Traction\Request\Packer\Packer;
-
 /**
  * Base structure for an API request object.
  *

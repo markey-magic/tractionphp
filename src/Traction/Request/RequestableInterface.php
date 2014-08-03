@@ -12,7 +12,7 @@ interface RequestableInterface
 {
     /**
      * Get our end-point path.
-     * 
+     *
      * @return string
      */
     public function getPath();

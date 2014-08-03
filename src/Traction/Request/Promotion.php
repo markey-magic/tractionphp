@@ -41,7 +41,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Set promotion ID
-     * 
+     *
      * @param integer $value
      */
     public function setPromotionId($value)
@@ -51,7 +51,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Get promotion ID
-     * 
+     *
      * @return integer
      */
     public function getPromotionId()
@@ -61,7 +61,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Set match key
-     * 
+     *
      * @param string $value
      */
     public function setMatchKey($value)
@@ -71,7 +71,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Get match key
-     * 
+     *
      * @return string
      */
     public function getMatchKey()
@@ -81,7 +81,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Set match value
-     * 
+     *
      * @param string $value
      */
     public function setMatchValue($value)
@@ -91,7 +91,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Get match value
-     * 
+     *
      * @return string
      */
     public function getMatchValue()
@@ -101,7 +101,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Set Entries
-     * 
+     *
      * @param integer $value
      */
     public function setEntries($value = null)
@@ -111,7 +111,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Get entries
-     * 
+     *
      * @return integer
      */
     public function getEntries()
@@ -121,7 +121,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Set free text
-     * 
+     *
      * @param string $value
      */
     public function setFreeText($value = null)
@@ -131,7 +131,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Get free text
-     * 
+     *
      * @return string
      */
     public function getFreeText()
@@ -141,7 +141,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Set customer
-     * 
+     *
      * @param Customer $value
      */
     public function setCustomer(Customer $value = null)
@@ -151,7 +151,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Get customer
-     * 
+     *
      * @return Customer
      */
     public function getCustomer()
@@ -161,7 +161,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Set entry code
-     * 
+     *
      * @param string $value
      */
     public function setEntryCode($value = null)
@@ -171,7 +171,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Get entry code
-     * 
+     *
      * @return string
      */
     public function getEntryCode()
@@ -181,7 +181,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Add snippet
-     * 
+     *
      * @param string $value
      */
     public function addSnippet($value)
@@ -191,7 +191,7 @@ class Promotion extends BaseAbstract
 
     /**
      * Get snippets
-     * 
+     *
      * @return array
      */
     public function getSnippets()

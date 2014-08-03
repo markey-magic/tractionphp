@@ -3,7 +3,6 @@
 namespace Traction;
 
 use Buzz\Message\Response as TransportResponse;
-use Traction\Exceptions\TransportException;
 
 /**
  * Response wrapper.
@@ -20,11 +19,11 @@ class DynamicResponse extends Response
         $this->data = json_decode($response->getContent());
     }
 
-	public function getData()
+    public function getData()
     {
         return $this->data;
     }
-	
+
     /**
      * {@inheritdoc}
      */
@@ -38,7 +37,7 @@ class DynamicResponse extends Response
      */
     public function getError()
     {
-        return !empty($this->data->error) ? $this->data->error->description : NULL;
+        return !empty($this->data->error) ? $this->data->error->description : null;
     }
 
     /**
@@ -46,7 +45,7 @@ class DynamicResponse extends Response
      */
     public function getCustomerId()
     {
-        return !empty($this->data->data) ? $this->data->data->customer_id : NULL;
+        return !empty($this->data->data) ? $this->data->data->customer_id : null;
     }
 
     /**
@@ -54,7 +53,7 @@ class DynamicResponse extends Response
      */
     public function getAttribute()
     {
-        return !empty($this->data->error) ? $this->data->error->cause : NULL;
+        return !empty($this->data->error) ? $this->data->error->cause : null;
     }
 
     /**
@@ -62,7 +61,7 @@ class DynamicResponse extends Response
      */
     public function getErrorCodes()
     {
-        return !empty($this->data->error) ? $this->data->error->code : NULL;
+        return !empty($this->data->error) ? $this->data->error->code : null;
     }
 
     /**
@@ -70,6 +69,6 @@ class DynamicResponse extends Response
      */
     public function getErrorParams()
     {
-        return !empty($this->data->error) ? $this->data->error->cause : NULL;
+        return !empty($this->data->error) ? $this->data->error->cause : null;
     }
 }

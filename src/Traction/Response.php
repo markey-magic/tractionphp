@@ -14,7 +14,7 @@ class Response
 {
     protected $response;
 
-    public function __construct (TransportResponse $response)
+    public function __construct(TransportResponse $response)
     {
         if (!$response->isSuccessful())
             throw new TransportException($response);
@@ -54,7 +54,7 @@ class Response
 
     /**
      * Get customer ID
-     * 
+     *
      * @return integer|null
      */
     public function getCustomerId()
@@ -64,7 +64,7 @@ class Response
 
     /**
      * Get attribute ID of the attribute which failed customer validation
-     * 
+     *
      * @return string|null
      */
     public function getAttribute()
@@ -74,7 +74,7 @@ class Response
 
     /**
      * Get error codes if a warning occurs
-     * 
+     *
      * @return string|null
      */
     public function getErrorCodes()

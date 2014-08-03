@@ -5,11 +5,8 @@ namespace Traction;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Buzz\Browser;
-use Buzz\Client\Curl;
 use Traction\Request\RequestableInterface;
 use Traction\Request\Packer\DynamicPacker;
-use Traction\Exceptions\TransportException;
-use Traction\Response;
 
 /**
  * Request & Response Handler.
@@ -42,7 +39,7 @@ class DynamicHandler extends Handler
     /**
      * Submit a request to the API.
      *
-     * @param Requestable $request
+     * @param  Requestable $request
      * @return object
      */
     public function submit(RequestableInterface $request)
@@ -63,8 +60,7 @@ class DynamicHandler extends Handler
     private function applyDefaultOptions(RequestableInterface $request)
     {
         // set custom password
-        if ( isset($this->options['password']) )
-        {
+        if ( isset($this->options['password']) ) {
             $request->setPassword($this->options['password']);
         }
     }
